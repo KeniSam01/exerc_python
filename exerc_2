@@ -1,0 +1,4 @@
+name = "João Diniz"
+idade = 25
+
+print(f"My name is {name} i have {idade} years old!")
