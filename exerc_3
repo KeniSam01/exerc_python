@@ -1,0 +1,27 @@
+soma = input("Você quer fazer uma soma? (sim/nao)")
+if soma == "sim":
+    num_1 = int(input("Digite o primeiro numero: "))
+    num_2 = int(input("Digite o segundo numero: "))
+    print(f"Resultado da soma: {num_1 + num_2}")
+
+elif soma == "nao":
+    sub = input("Você quer fazer uma subtração? (sim/nao)")
+    if sub == "sim":
+        num_1 = int(input("Digite o primeiro numero: "))
+        num_2 = int(input("Digite o segundo numero: "))
+        print(f"O resultado da subtração é: {num_1 - num_2}")
+
+    elif sub == "nao":
+        div = input("Você quer fazer uma divisao? (sim/nao)")
+        if div == "sim":
+            num_1 = int(input("Digite o primeiro numero: "))
+            num_2 = int(input("Digite o segundo numero: "))
+            print(f"O resultado da divisao é: {num_1 / num_2}")
+        elif div == "nao":
+            mult = input("Você quer fazer uma multiplicação? (sim/nao)")
+            if mult == "sim":
+                num_1 = int(input("Digite o primeiro numero: "))
+                num_2 = int(input("Digite o segundo numero: "))
+                print(f"O resultado é: {num_1 * num_2}")
+            else:
+                print("Então eu não posso te ajudar.")
