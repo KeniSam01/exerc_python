@@ -1,0 +1,3 @@
+number = int(input("Type one number: "))
+number_double = number * 2
+print(f"Double the {number} is {number_double}")

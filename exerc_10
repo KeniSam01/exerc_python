@@ -1,0 +1,6 @@
+name = input("Whats your name: ")
+
+def p_function():
+    print(f"Hello {name}!!!")
+
+p_function()
