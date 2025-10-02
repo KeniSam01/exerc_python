@@ -1,0 +1,9 @@
+list_01 = ["João", "Maria", "Jessica", "Jhonathan"]
+list_01.insert(0, "Carlos")
+list_01.append(input("digite um nome: "))
+print(list_01)
+
+for names in list_01:
+    print(names)
+
+print(len(list_01))
