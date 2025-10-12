@@ -1,0 +1,41 @@
+question = int(input(""" 
+[1] - SOMA
+[2] - SUBTRAÇÃO 
+[3] - DIVISAO 
+[4] - MULTIPLICAÇÃO
+Digite um número para escolher uma OPERAÇÃO MATEMATICA:  """))
+
+def soma():
+    number_1 = int(input("Digite um numero para SOMA: "))
+    number_2 = int(input("Digite um numero para SOMA: "))
+    print(f" O resultado da SOMA é: { number_1 + number_2}")
+
+def subtracao():
+    number_1 = int(input("Digite um numero para SUBTRAÇÃO: "))
+    number_2 = int(input("Digite um numero para SUBTRAÇÃO: "))
+    print(f" O resultado da SOMA é: { number_1 - number_2}")
+
+def divisao():
+    number_1 = int(input("Digite o numero que você quer DIVIDIR: "))
+    number_2 = int(input("Digite por quanto você quer DIVIDIR: "))
+    print(f" O resultado da SOMA é: { number_1 / number_2}")
+
+def multiplicacao():
+    number_1 = int(input("Digite um numero para MULTIPLICAR: "))
+    number_2 = int(input("Digite um numero para MULTIPLICAR "))
+    print(f" O resultado da SOMA é: { number_1 * number_2} ")
+
+if question == 1:
+    soma()
+
+elif question == 2:
+    subtracao()
+
+elif question == 3:
+    divisao()
+
+elif question == 4:
+    multiplicacao()
+
+else:
+    print("Lamento, opção INVALIDA, tente novamente!!!")
