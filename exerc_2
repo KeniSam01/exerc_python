@@ -3,3 +3,4 @@ idade = 25
 peso = 62.5
 
 print(f"My name is {name} i have {idade} years old and i have {peso} kg")
+
