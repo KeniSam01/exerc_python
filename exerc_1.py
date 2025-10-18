@@ -1,2 +1,6 @@
 name = input("What your name?")
 print(f"Hello! {name} Nice too me too!")
+print("Fico feliz de ter você conosco!")
+print("Neste caminho, precisaremos de muita paciencia e muita atenção!")
+print(f"Não será facil {name}, mas também não sera impossivel")
+print(f"Nós acreditamos em você, e você precisa acreditar em você, {name}")

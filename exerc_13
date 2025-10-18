@@ -1,0 +1,10 @@
+dia = input("Em que dia você nasceu? ")
+mes = input("Em que mês você nasceu? ")
+ano = input("Qual seu ano de nascimento? ")
+
+print(f"você nasceu no dia {dia} de {mes} de {ano}, correto?")
+
+numero_1 = int(input("Digite um numero para somar: "))
+numero_2 = int(input("Digite outro numero: "))
+soma = numero_1 + numero_2
+print(f"O resultado da soma é: {soma}")

@@ -1,2 +1,7 @@
 name = input("Whats your name? ")
-print(f"Wellcome {name}")
+peso = input("Quantos kilos você pesa? ")
+idade = input("Quantos anos você tem? ")
+print(f"Wellcome {name}, you have {peso} kg and {idade} years old!!")
+print(f"{name} Vamos conversar um pouco?")
+print(f"{name} o seu peso de {peso} está quase abaixo do comum.")
+print(f"principalmente pela sua {idade} anos, que já esta entrando na casa dos 30")
