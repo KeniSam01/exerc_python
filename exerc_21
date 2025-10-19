@@ -1,0 +1,5 @@
+carteira = float(input("Quantos reais você tem na carteira:" ))
+
+dolar = carteira / 3.27
+
+print(f"Sua carteira, convertida em dolar fica: {dolar}")
