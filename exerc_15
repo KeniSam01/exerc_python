@@ -1,0 +1,9 @@
+text = input("Digite algo: ")
+
+print(type(text))
+print(f"Seu texto é apenas numeros: {text.isnumeric()}")
+print(f"Seu texto contem numeros e letras: {text.isalnum()}")
+print(f"Seu texto contem apenas letras: {text.isalpha()} ")
+print(f"Seu texto esta apenas em minusculo: {text.islower()} ")
+print(f"seu texto esta todo em maiusculo: {text.isupper()}")
+print(f"Seu texto contem espaço entre eles: {text.isspace()}")
