@@ -1,5 +1,5 @@
-nota1 = int(input("Digite sua 1ª nota: "))
-nota2 = int(input("Digite sua 2ª nota: "))
+nota1 = float(input("Digite sua 1ª nota: "))
+nota2 = float(input("Digite sua 2ª nota: "))
 media = (nota1 + nota2) / 2
 if media >= 5:
     print(f"Parabéns, sua média deste mês foi: {media} e você foi aprovado!!!")

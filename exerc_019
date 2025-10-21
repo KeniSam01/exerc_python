@@ -1,4 +1,4 @@
-medida = int(input("Digite um valor em metros para ser exibido em centimetros(cm) e milimetros(mm): "))
+medida = float(input("Digite um valor em metros para ser exibido em centimetros(cm) e milimetros(mm): "))
 
 cm = medida * 100
 mm = medida * 1000

@@ -1,0 +1,5 @@
+largura = float(input("Digite a largura: "))
+altura = float(input("Digite a altura: "))
+area = largura * altura
+tinta = area // 2
+print(f"Sua parede tem {largura}m de largura e {altura}m de altura.\nSua area total é de {area}m² e serão necessarias {tinta} latas de tinta para pinta-la!")
