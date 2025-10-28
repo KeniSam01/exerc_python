@@ -1,0 +1,13 @@
+# crie um programa que leia o nome completo de uma pessoa e mostre:
+# o nome com todas as letras maiusculas
+# o nome com todas minusculuas
+# quantas letras ao todo sem considerar espaços
+# quantas letras tem o primeiro nome
+
+nome = str(input("Digite seu nome completo: "))
+nome_contado = len(nome)
+print(nome.upper())
+print(nome.lower())
+print(f"O seu nome completo tem: {nome_contado} letras")
+primeiro_nome = nome.split(" ")
+print(f"O seu primeiro nome tem: {len(primeiro_nome[0])} letras")
