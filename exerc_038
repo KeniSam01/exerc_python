@@ -3,3 +3,7 @@
 # ex: ana maria de souza
 # primeiro = ana
 # ultimo = souza
+
+nome = str(input("Digite seu nome completo: ")).strip().upper()
+nome_separado = nome.split()
+print(f"Primeiro nome: {nome_separado[0]}\nUltimo nome: {nome_separado[-1]}")

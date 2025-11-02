@@ -4,10 +4,10 @@
 # quantas letras ao todo sem considerar espaços
 # quantas letras tem o primeiro nome
 
-nome = str(input("Digite seu nome completo: "))
-nome_contado = len(nome)
+nome = str(input("Digite seu nome completo: ")).strip()
 print(nome.upper())
 print(nome.lower())
+nome_contado = len(nome) - nome.count(" ")
 print(f"O seu nome completo tem: {nome_contado} letras")
 primeiro_nome = nome.split(" ")
 print(f"O seu primeiro nome tem: {len(primeiro_nome[0])} letras")
