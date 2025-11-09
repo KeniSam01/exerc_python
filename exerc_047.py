@@ -11,4 +11,4 @@ limite = (salario * 30) / 100
 if parcela > limite:
     print("O parcelamento excedeu o valor limite, assim não conseguimos liberar a compra.")
 else:
-    print(f"Seu emprestimo foi aprovado!!!\nVocê terá parcelas de: R${parcela:.0f} reais")
+    print(f"Seu emprestimo foi aprovado!!!\nVocê terá parcelas de: R${parcela:.0f} reais durante {anos} anos.")

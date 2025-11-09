@@ -8,10 +8,12 @@ n = int(input("Digite um numero: "))
 escolha = int(input("Escolha a base de conversão:\n1 - binario\n2 - octal\n3 - hexadecimal\n"))
 if escolha == 1:
     binario = bin(n)
-    print(f"O numero conertido para binario fica: {binario}")
+    print(f"O numero conertido para binario fica: {binario[2:]}")
 elif escolha == 2:
     octal = oct(n)
-    print(f"O numero convertido para octal fica: {octal}")
+    print(f"O numero convertido para octal fica: {octal[2:]}")
 elif escolha == 3:
     hex = hex(n)
-    print(f"O numero convertido para hexadecimal fica: {hex}")
+    print(f"O numero convertido para hexadecimal fica: {hex[2:]}")
+else:
+    print("Opção invalida.")
