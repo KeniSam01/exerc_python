@@ -9,7 +9,7 @@ for n in range(1, numero + 1):
     else:
         print('\033[m', end="")
     print(n, end="")
-print(f"\nO numero {numero} foi divisivel {tot} vezes")
+print(f"\nO numero {numero} é divisivel {tot} vezes")
 if tot > 2:
     print(f"O numero não é primo")
 else:
